@@ -27,8 +27,8 @@ import com.aad.ws.resource.IntegrationTest;
 public class AppResourceTest {
 	
 		// Change that line to point to your File System
-		private static final String pathToFile = "C:\\Users\\MConstantinides\\git\\GS03_ITW\\Group4.zip";
-		private static final String resourceUpload = "aad-ws/api/application/upload";
+		private static final String pathToFile = "C:\\Users\\MConstantinides\\git\\GS03_ITW\\Group4.zip\\";
+		private static final String resourceUpload = "aad-ws/api/application/upload/";
 		private static final String resourceAppDetails = "aad-ws/api/application/";
 		private static final String appID = "1";
 		
@@ -42,7 +42,7 @@ public class AppResourceTest {
 			System.out.println("*********************** Integration test ***********************");
 			given().
 				multiPart(new File(pathToFile)).
-				parameters("name", "Group4 Testing", "description", "This is Group4 testing", "type", "1", "category", "1", "size", "500 KB").
+				parameters("name", "Group4 Testing", "description", "This is Group4 testing", "type", "1", "category", "1", "size", "500 KB", "developer", "Group4 Dev Team").
 			expect().
 				statusCode(201).
 			when().
