@@ -28,6 +28,9 @@ public class AppResourceTest {
 	
 		// Change that line to point to your File System
 		private static final String pathToFile = "C:\\Users\\MConstantinides\\git\\GS03_ITW\\Group4.zip";
+		private static final String resourceUpload = "aad-ws/api/application/upload";
+		private static final String resourceAppDetails = "aad-ws/api/application/";
+		private static final String appID = "1";
 		
 		static{
 			RestAssured.port = 9999;
@@ -43,7 +46,7 @@ public class AppResourceTest {
 			expect().
 				statusCode(201).
 			when().
-				post("/aad-ws/api/application/upload");
+				post(resourceUpload);
 		}
 		
 		
@@ -54,6 +57,6 @@ public class AppResourceTest {
 			expect().
 				statusCode(200).
 			when().
-				get("aad-ws/api/application/1");
+				get(resourceAppDetails + appID);
 		}
 }
