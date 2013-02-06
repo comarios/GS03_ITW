@@ -1,4 +1,6 @@
-127.0.0.1 - - [06/Feb/2013:16:18:51 +0000] "GET /cargocpc/index.html HTTP/1.1" 200 124
-127.0.0.1 - - [06/Feb/2013:16:18:57 +0000] "GET /aad-ws/api/application/1 HTTP/1.1" 500 13468
-127.0.0.1 - - [06/Feb/2013:16:18:59 +0000] "POST /aad-ws/api/application/upload HTTP/1.1" 400 72
-127.0.0.1 - - [06/Feb/2013:16:18:59 +0000] "GET /aad-ws/api/applications/1 HTTP/1.1" 500 13355
+127.0.0.1 - - [06/Feb/2013:22:36:17 +0000] "GET /cargocpc/index.html HTTP/1.1" 200 124
+127.0.0.1 - - [06/Feb/2013:22:36:23 +0000] "POST /aad-ws/api/application/upload HTTP/1.1" 400 72
+127.0.0.1 - - [06/Feb/2013:22:36:23 +0000] "GET /aad-ws/api/application/1 HTTP/1.1" 200 164
+127.0.0.1 - - [06/Feb/2013:22:36:23 +0000] "GET /aad-ws/api/applications/1 HTTP/1.1" 200 3659
+127.0.0.1 - - [06/Feb/2013:22:36:23 +0000] "GET /aad-ws/api/categories HTTP/1.1" 200 385
+127.0.0.1 - - [06/Feb/2013:22:36:23 +0000] "GET /aad-ws/api/types HTTP/1.1" 200 210
