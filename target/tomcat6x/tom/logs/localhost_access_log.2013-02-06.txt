@@ -1,0 +1,3 @@
+127.0.0.1 - - [06/Feb/2013:13:51:43 +0000] "GET /cargocpc/index.html HTTP/1.1" 200 124
+127.0.0.1 - - [06/Feb/2013:13:51:55 +0000] "GET /aad-ws/api/application/1 HTTP/1.1" 500 13468
+127.0.0.1 - - [06/Feb/2013:13:51:58 +0000] "POST /aad-ws/api/application/upload HTTP/1.1" 400 72
