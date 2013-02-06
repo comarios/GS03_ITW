@@ -19,19 +19,9 @@ public class AppResourceTest {
 		RestAssured.port = 9999;
 	}
 	
-	/*@Test
-	public void testGetAppDetails() {
-		System.out.println("*********************** Integration test ***********************");
-		RestAssured.port = 9999;
-		given().
-	       contentType("application/json; charset=UTF-16");
-		expect().
-			body("name", equalTo("survey")).
-			body("size", equalTo("50 MB")).
-		when().
-			get("/aad-ws/api/application/details/getAppList");
-	}*/
-	
+	/*
+	 * Test getAppInfo in the AppResource.java
+	 * */
 	@Test
 	public void testStoreApp() {
 		System.out.println("*********************** Integration test ***********************");
