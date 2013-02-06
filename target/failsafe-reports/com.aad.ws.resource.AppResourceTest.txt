@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.aad.ws.resource.AppResourceTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.772 sec <<< FAILURE!
-testGetApplicationDetails(com.aad.ws.resource.AppResourceTest)  Time elapsed: 8.783 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.79 sec <<< FAILURE!
+testGetApplicationDetails(com.aad.ws.resource.AppResourceTest)  Time elapsed: 4.933 sec  <<< FAILURE!
 java.lang.AssertionError: Expected status code <200> doesn't match actual status code <500>.
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
@@ -41,9 +41,9 @@ java.lang.AssertionError: Expected status code <200> doesn't match actual status
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
 	at com.jayway.restassured.internal.ResponseSpecificationImpl.get(ResponseSpecificationImpl.groovy:217)
-	at com.aad.ws.resource.AppResourceTest.testGetApplicationDetails(AppResourceTest.java:52)
+	at com.aad.ws.resource.AppResourceTest.testGetApplicationDetails(AppResourceTest.java:50)
 
-testStoreApp(com.aad.ws.resource.AppResourceTest)  Time elapsed: 16.38 sec  <<< FAILURE!
+testStoreApp(com.aad.ws.resource.AppResourceTest)  Time elapsed: 16.644 sec  <<< FAILURE!
 java.lang.AssertionError: Expected status code <201> doesn't match actual status code <400>.
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
@@ -71,5 +71,5 @@ java.lang.AssertionError: Expected status code <201> doesn't match actual status
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
 	at com.jayway.restassured.internal.ResponseSpecificationImpl.post(ResponseSpecificationImpl.groovy:221)
-	at com.aad.ws.resource.AppResourceTest.testStoreApp(AppResourceTest.java:38)
+	at com.aad.ws.resource.AppResourceTest.testStoreApp(AppResourceTest.java:36)
 

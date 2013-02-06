@@ -12,6 +12,17 @@ import org.junit.experimental.categories.Category;
 import com.jayway.restassured.RestAssured;
 import com.aad.ws.resource.IntegrationTest;
 
+
+/***
+ * This test is used to test resources in the AppResource.java
+ * Resources to be tested
+ * 1) getAppDetails
+ * 2) storeApp
+ * 
+ * @author MConstantinides
+ *
+ */
+
 @Category(IntegrationTest.class)
 public class AppResourceTest {
 
@@ -19,9 +30,6 @@ public class AppResourceTest {
 		RestAssured.port = 9999;
 	}
 	
-	/*
-	 * Test getAppInfo in the AppResource.java
-	 * */
 	@Test
 	public void testStoreApp() {
 		System.out.println("*********************** Integration test ***********************");
