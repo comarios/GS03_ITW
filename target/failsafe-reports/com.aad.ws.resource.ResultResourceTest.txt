@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.aad.ws.resource.ResultResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec <<< FAILURE!
+testSubmitResult(com.aad.ws.resource.ResultResourceTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.AssertionError: Expected status code <201> doesn't match actual status code <404>.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateHeadersAndCookies(ResponseSpecificationImpl.groovy:386)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateHeadersAndCookies(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$this$2$validateHeadersAndCookies.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:355)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate.call(Unknown Source)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.invokeFilterChain(RequestSpecificationImpl.groovy:659)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$invokeFilterChain.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1037)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$this$2$applyPathParamsAndSendRequest.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:127)
+	at com.jayway.restassured.specification.RequestSender$post.call(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.post(ResponseSpecificationImpl.groovy:221)
+	at com.aad.ws.resource.ResultResourceTest.testSubmitResult(ResultResourceTest.java:38)
+

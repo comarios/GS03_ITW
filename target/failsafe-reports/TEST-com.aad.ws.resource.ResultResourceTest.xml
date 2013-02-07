@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="0.032" errors="0" skipped="0" tests="1" name="com.aad.ws.resource.ResultResourceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\bin"/>
+    <property name="java.vm.version" value="23.6-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\MConstantinides\git\GS03_ITW"/>
+    <property name="java.runtime.version" value="1.7.0_11-b21"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\MCONST~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\MConstantinides\apache-maven-3.0.4-bin\apache-maven-3.0.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Java\jdk1.7.0_11\bin;C:\Users\MConstantinides\apache-maven-3.0.4-bin\apache-maven-3.0.4\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\MConstantinides"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="MConstantinides"/>
+    <property name="java.class.path" value="C:\Users\MConstantinides\apache-maven-3.0.4-bin\apache-maven-3.0.4\bin\..\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_11\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_11\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\MConstantinides\apache-maven-3.0.4-bin\apache-maven-3.0.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.032" classname="Description" name="testSubmitResult">
+    <failure message="Expected status code &lt;201&gt; doesn&apos;t match actual status code &lt;404&gt;." type="java.lang.AssertionError">java.lang.AssertionError: Expected status code &lt;201&gt; doesn&apos;t match actual status code &lt;404&gt;.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateHeadersAndCookies(ResponseSpecificationImpl.groovy:386)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateHeadersAndCookies(ResponseSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$this$2$validateHeadersAndCookies.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:355)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate.call(Unknown Source)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.invokeFilterChain(RequestSpecificationImpl.groovy:659)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$invokeFilterChain.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1037)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$this$2$applyPathParamsAndSendRequest.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:127)
+	at com.jayway.restassured.specification.RequestSender$post.call(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.post(ResponseSpecificationImpl.groovy:221)
+	at com.aad.ws.resource.ResultResourceTest.testSubmitResult(ResultResourceTest.java:38)
+</failure>
+    <system-out>*********************** Integration test ***********************
+2013-02-07 00:45:07,237 AAD-WS DEBUG SingleClientConnManager:212 - Get connection for route HttpRoute[{}-&gt;http://localhost:9999]
+2013-02-07 00:45:07,238 AAD-WS DEBUG DefaultClientConnectionOperator:145 - Connecting to localhost:9999
+2013-02-07 00:45:07,239 AAD-WS DEBUG RequestAddCookies:132 - CookieSpec selected: best-match
+2013-02-07 00:45:07,239 AAD-WS DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2013-02-07 00:45:07,240 AAD-WS DEBUG DefaultHttpClient:645 - Attempt 1 to execute request
+2013-02-07 00:45:07,240 AAD-WS DEBUG DefaultClientConnection:264 - Sending request: POST /aad-ws/api/results/submit/ HTTP/1.1
+2013-02-07 00:45:07,240 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;POST /aad-ws/api/results/submit/ HTTP/1.1[\r][\n]&quot;
+2013-02-07 00:45:07,241 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;Accept: */*[\r][\n]&quot;
+2013-02-07 00:45:07,241 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;Content-Length: 110[\r][\n]&quot;
+2013-02-07 00:45:07,241 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]&quot;
+2013-02-07 00:45:07,242 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;Host: localhost:9999[\r][\n]&quot;
+2013-02-07 00:45:07,242 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+2013-02-07 00:45:07,246 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+2013-02-07 00:45:07,247 AAD-WS DEBUG wire:63 - &gt;&gt; &quot;[\r][\n]&quot;
+2013-02-07 00:45:07,247 AAD-WS DEBUG headers:268 - &gt;&gt; POST /aad-ws/api/results/submit/ HTTP/1.1
+2013-02-07 00:45:07,247 AAD-WS DEBUG headers:271 - &gt;&gt; Accept: */*
+2013-02-07 00:45:07,247 AAD-WS DEBUG headers:271 - &gt;&gt; Content-Length: 110
+2013-02-07 00:45:07,248 AAD-WS DEBUG headers:271 - &gt;&gt; Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2013-02-07 00:45:07,248 AAD-WS DEBUG headers:271 - &gt;&gt; Host: localhost:9999
+2013-02-07 00:45:07,248 AAD-WS DEBUG headers:271 - &gt;&gt; Connection: Keep-Alive
+2013-02-07 00:45:07,248 AAD-WS DEBUG headers:271 - &gt;&gt; Accept-Encoding: gzip,deflate
+2013-02-07 00:45:07,248 AAD-WS DEBUG wire:77 - &gt;&gt; &quot;name=Group4+Testing&amp;description=This+is+Group4+testing&amp;type=1&amp;category=1&amp;size=500+KB&amp;developer=Group4+Dev+Team&quot;
+2013-02-07 00:45:07,257 AAD-WS DEBUG DefaultClientConnection:152 - Connection shut down
+2013-02-07 00:45:07,257 AAD-WS DEBUG wire:63 - &lt;&lt; &quot;HTTP/1.1 404 Not Found[\r][\n]&quot;
+2013-02-07 00:45:07,259 AAD-WS DEBUG wire:63 - &lt;&lt; &quot;Server: Apache-Coyote/1.1[\r][\n]&quot;
+2013-02-07 00:45:07,259 AAD-WS DEBUG wire:63 - &lt;&lt; &quot;Content-Type: text/html;charset=utf-8[\r][\n]&quot;
+2013-02-07 00:45:07,260 AAD-WS DEBUG wire:63 - &lt;&lt; &quot;Content-Length: 977[\r][\n]&quot;
+2013-02-07 00:45:07,260 AAD-WS DEBUG wire:63 - &lt;&lt; &quot;Date: Thu, 07 Feb 2013 00:45:07 GMT[\r][\n]&quot;
+2013-02-07 00:45:07,260 AAD-WS DEBUG wire:63 - &lt;&lt; &quot;[\r][\n]&quot;
+2013-02-07 00:45:07,260 AAD-WS DEBUG DefaultClientConnection:249 - Receiving response: HTTP/1.1 404 Not Found
+2013-02-07 00:45:07,261 AAD-WS DEBUG headers:252 - &lt;&lt; HTTP/1.1 404 Not Found
+2013-02-07 00:45:07,261 AAD-WS DEBUG headers:255 - &lt;&lt; Server: Apache-Coyote/1.1
+2013-02-07 00:45:07,261 AAD-WS DEBUG headers:255 - &lt;&lt; Content-Type: text/html;charset=utf-8
+2013-02-07 00:45:07,261 AAD-WS DEBUG headers:255 - &lt;&lt; Content-Length: 977
+2013-02-07 00:45:07,261 AAD-WS DEBUG headers:255 - &lt;&lt; Date: Thu, 07 Feb 2013 00:45:07 GMT
+2013-02-07 00:45:07,263 AAD-WS DEBUG DefaultHttpClient:487 - Connection can be kept alive indefinitely
+2013-02-07 00:45:07,264 AAD-WS DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:472 - Parsing response as: text/html;charset=utf-8
+2013-02-07 00:45:07,264 AAD-WS DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:475 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+</system-out>
+  </testcase>
+</testsuite>
