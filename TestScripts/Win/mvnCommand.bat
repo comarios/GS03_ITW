@@ -1,5 +1,7 @@
 @echo off
-::> TestOutput\RestAssured\restAssuredResults.txt 2>&1
+pushd ..
+pushd ..
+echo "%CD%"
 mvn clean verify 
 
 

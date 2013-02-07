@@ -1,6 +1,5 @@
 @echo off
 ECHO Jayway restAssured Integration Testing Started...
-::> TestOutput\RestAssured\restAssuredResults.txt 2>&1
 
 FOR /F "skip=1 tokens=1-6" %%A IN ('WMIC Path Win32_LocalTime Get Day^,Hour^,Minute^,Second /Format:table ^| findstr /r "."') DO (
  set Milisecond=%time:~9,2% 
