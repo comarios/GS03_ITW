@@ -34,6 +34,7 @@ public class TypeResourceTest {
 	
 	@Test
 	public void testGetTypes() {
+		System.out.println("*********************** Testing GetTypes ***************************");
 		given().
 			contentType("application/json; charset=UTF-16");
 		expect().

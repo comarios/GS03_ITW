@@ -33,6 +33,7 @@ public class AppsResourceTest {
 	
 	@Test
 	public void testGetAppsForCategory() {
+		System.out.println("*********************** Testing GetAppsForCategory ***************************");
 		given().
 			contentType("application/json; charset=UTF-16");
 		expect().

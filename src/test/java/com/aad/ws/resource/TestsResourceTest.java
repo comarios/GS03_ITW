@@ -36,6 +36,7 @@ public class TestsResourceTest {
 	
 	@Test
 	public void testGetTests() {
+		System.out.println("*********************** Testing GetTests ***************************");
 		given().
 			contentType("application/json; charset=UTF-16");
 		expect().

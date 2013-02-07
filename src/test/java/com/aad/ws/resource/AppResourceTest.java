@@ -40,7 +40,7 @@ public class AppResourceTest {
 		
 		@Test
 		public void testStoreApp() {
-			System.out.println("*********************** Integration test ***********************");
+			System.out.println("*********************** Testing StoreApp ***************************");
 			given().
 				multiPart(new File(pathToFile)).
 				parameters("name", "Group4 Testing", "description", "This is Group4 testing", "type", "1", "category", "1", "size", "500 KB", "developer", "Group4 Dev Team").
@@ -53,6 +53,7 @@ public class AppResourceTest {
 		
 		@Test
 		public void testGetApplicationDetails() {
+			System.out.println("*********************** Testing GetAppDetails ***************************");
 			given().
 				contentType("application/json; charset=UTF-16");
 			expect().

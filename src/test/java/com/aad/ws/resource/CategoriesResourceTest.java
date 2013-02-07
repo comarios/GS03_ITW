@@ -34,6 +34,7 @@ public class CategoriesResourceTest {
 	
 	@Test
 	public void testGetCategories() {
+		System.out.println("*********************** Testing GetCategories ***************************");
 		given().
 			contentType("application/json; charset=UTF-16");
 		expect().
