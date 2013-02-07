@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.aad.ws.resource.AppResourceTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.414 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.724 sec

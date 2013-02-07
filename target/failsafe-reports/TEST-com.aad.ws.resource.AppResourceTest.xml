@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="7.519" errors="0" skipped="0" tests="2" name="com.aad.ws.resource.AppResourceTest">
+<testsuite failures="0" time="7.755" errors="0" skipped="0" tests="2" name="com.aad.ws.resource.AppResourceTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\bin"/>
@@ -60,6 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="3.105" classname="com.aad.ws.resource.AppResourceTest" name="com.aad.ws.resource.AppResourceTest"/>
-  <testcase time="4.414" classname="com.aad.ws.resource.AppResourceTest" name="com.aad.ws.resource.AppResourceTest"/>
+  <testcase time="3.031" classname="com.aad.ws.resource.AppResourceTest" name="com.aad.ws.resource.AppResourceTest"/>
+  <testcase time="4.724" classname="com.aad.ws.resource.AppResourceTest" name="com.aad.ws.resource.AppResourceTest"/>
 </testsuite>

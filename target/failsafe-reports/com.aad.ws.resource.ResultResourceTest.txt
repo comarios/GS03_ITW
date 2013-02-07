@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.aad.ws.resource.ResultResourceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec <<< FAILURE!
-testSubmitResult(com.aad.ws.resource.ResultResourceTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec <<< FAILURE!
+testSubmitResult(com.aad.ws.resource.ResultResourceTest)  Time elapsed: 0.07 sec  <<< FAILURE!
 java.lang.AssertionError: Expected status code <201> doesn't match actual status code <404>.
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
